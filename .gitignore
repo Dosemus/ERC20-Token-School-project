@@ -1,0 +1,10 @@
+# Ignore Node modules
+node_modules/
+package-lock.json
+
+# Ignore Hardhat cache
+cache/
+artifacts/
+
+# Ignore environment variables (Never push private keys)
+.env
