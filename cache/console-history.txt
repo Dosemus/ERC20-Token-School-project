@@ -1,0 +1,24 @@
+await exchange.exchange("100000000000000000000"); // Swap 100 ALPHA for BETA
+const exchange = await ethers.getContractAt("TokenExchange", "0x7844ee367b8360094555C972Bbe0Aceb5Cb60902");
+await tokenB.balanceOf("0x7844ee367b8360094555C972Bbe0Aceb5Cb60902");
+await tokenB.transfer("0x7844ee367b8360094555C972Bbe0Aceb5Cb60902", "500000000000000000000"); // Send 500 BETA
+const tokenB = await ethers.getContractAt("IERC20", "0x2E2dA72A791A46123059905351914de6714BADe8");
+await tokenB.balanceOf("0x7844ee367b8360094555C972Bbe0Aceb5Cb60902"); // Exchange contract address
+const tokenB = await ethers.getContractAt("IERC20", "0x2E2dA72A791A46123059905351914de6714BADe8"); // BetaToken address
+await exchange.exchange("100000000000000000000"); // Swap 100 ALPHA for BETA
+const exchange = await ethers.getContractAt("TokenExchange", "0x7844ee367b8360094555C972Bbe0Aceb5Cb60902");
+await tokenA.approve("0x7844ee367b8360094555C972Bbe0Aceb5Cb60902", "100000000000000000000"); // Approve 100 ALPHA
+const tokenA = await ethers.getContractAt("IERC20", "0xFCB53daB5AbAB1EE501194B5B7EE79c390ac0D63");
+);
+  "0x7844ee367b8360094555C972Bbe0Aceb5Cb60902" // Replace with your actual contract address
+  ],
+    "function withdrawTokenB(uint256 amount) external"
+    "function depositTokenB(uint256 amount) external",
+    "function setExchangeRate(uint256 newRate) external",
+    "function exchange(uint256 asset1) external returns (uint256)",
+  [
+const exchange = await ethers.getContractAt(
+await exchange.exchange("100000000000000000000"); // Swap 100 ALPHA for BETA
+const exchange = await ethers.getContractAt("TokenExchange", "<EXCHANGE_CONTRACT_ADDRESS>");
+await tokenA.approve("0x7844ee367b8360094555C972Bbe0Aceb5Cb60902", "1000000000000000000000"); // Approve 1000 ALPHA
+const tokenA = await ethers.getContractAt("IERC20", "0xFCB53daB5AbAB1EE501194B5B7EE79c390ac0D63");
