@@ -6,5 +6,5 @@ package-lock.json
 cache/
 artifacts/
 
-# Ignore environment variables (Never push private keys)
+# Ignore environment variables
 .env
